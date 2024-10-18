@@ -21,6 +21,7 @@ The Dining Concierge Chatbot uses various AWS services to create a seamless expe
 ## Lambda Functions
 
 ### LF0: Chat Operation
+- We have two different versions of LF0, LF0_v1 containing of the simple boilerplate and LF0_v2 which contains the fully functioning operation
 - Receives messages from the frontend via API Gateway
 - Forwards user input to Lex and returns Lex responses
 
