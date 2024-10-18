@@ -55,3 +55,7 @@ The Dining Concierge Chatbot uses various AWS services to create a seamless expe
 - Automated suggestion processing and email notifications
 
 This project demonstrates the power of serverless architecture and microservices in creating a responsive, scalable application for enhancing customer service in the dining industry.
+
+## ARCHITECHTURE
+
+<img src="Screenshots/Architecture.png" alt="Architecture" width="500"/>
