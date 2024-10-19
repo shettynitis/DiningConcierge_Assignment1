@@ -59,4 +59,4 @@ This project demonstrates the power of serverless architecture and microservices
 
 ## ARCHITECHTURE
 
-<img src="Screenshots/Architecture.png" alt="Architecture" width="500"/>
+<img src="OtherScripts/Screenshots/Architecture.png" alt="Architecture" width="500"/>
