@@ -18,8 +18,13 @@ def lambda_handler(event, context):
         text=message
     )
     
-    # Extract Lex's response
-    lex_message = response['messages'][0]['content']
+    print(f"Lex response: {response}")
+    
+    # Check if 'messages' is present
+    if 'messages' in response:
+        lex_message = response['messages'][0]['content']
+    else:
+        lex_message = "Sorry, I couldn't process your request."
 
     # Return the response to the frontend
     return {
